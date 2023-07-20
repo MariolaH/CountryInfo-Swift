@@ -7,7 +7,7 @@
 
 import UIKit
 
-
+//MVC is the inter, sitting around tell me what to do
 //ViewController needs to conform to ProductSelectionDelegate
 
 class ViewController: UIViewController, ProductSelectionDelegate {

@@ -7,9 +7,9 @@
 
 import UIKit
 
-//this file is the boss
+//this file is the boss - - going to be telling main ViewController(MVC) what to do. PVC has all the info, knows what was tapped... has to pass that info to MVC so it will update the view.
 
-//list of commands - protocol ie. job description
+//protocol - list of commands - protocol ie. job description
 protocol ProductSelectionDelegate {
     func didSelectCountry(name: String, imageName: String, description: String?, gifName: String?)
 }
