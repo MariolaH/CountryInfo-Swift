@@ -30,7 +30,7 @@ class ProductSelectionVC: UIViewController {
     }
     
     @objc func CanadaButtonTapped() {
-        delegate?.didSelectCountry(name: "Canada", imageName: "CanadianFlag", description: "Canada is home to the longest street in the world. \n\nThe longest coastline in the world is in Canada. \n\nA bear from Canada inspired Winnie the Pooh. \n\nCanada has 20% of the world's fresh water. \n\nThere are over 55,000 different species of insects in Canada.\n\nCanadians consume more macaroni and cheese that any other nation.\n\n“Hawaiian” pizza was actually invented by an Ontario man.\n\nThe lowest temperature ever recorded in Canada was -81.4F (-63C).", gifName: nil)
+        delegate?.didSelectCountry(name: "Canada", imageName: "CanadianFlag", description: "Canada is home to the longest street in the world. \n\nThe longest coastline in the world is in Canada. \n\nA bear from Canada inspired Winnie the Pooh. \n\nCanada has 20% of the world's fresh water. \n\nThere are over 55,000 different species of insects in Canada.\n\nCanadians consume more macaroni and cheese that any other nation.\n\n“Hawaiian” pizza was actually invented by an Ontario man.\n\nThe lowest temperature ever recorded in Canada was -81.4F (-63C)", gifName: nil)
         dismiss(animated: true)
     }
     
